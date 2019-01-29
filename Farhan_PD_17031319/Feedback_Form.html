@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<style>
+	body {
+		background-color: lime;
+	}
+    fieldset {
+  padding: 0 20px 20px;
+  margin: 0 0 30px;
+  border: 2px solid black;
+  background-color: gainsboro;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #C3C3C3;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+legend {
+  color: black;
+  background: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  width: 12em;
+  border: 2px solid #593131;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+	.none a{
+		text-decoration: none;
+		color: black;
+		font-size: 20px;
+	}
+	.none a:hover{
+		font-size: 22px;
+		transition-property: font-size;
+		transition-timing-function: ease;
+		transition: font-size 0.5s;
+		font-family: "Lucida Sans Typewriter";
+	}
+</style>
+<body>
+<h1 style= "font-size:40px">My Feedback Form </h1>
+<form action="">
+    <fieldset>
+        <legend>My Feedback Form</legend>
+        <br>
+How would you rate the website? <select>
+<option>Very Good</option>
+<option>Good</option>
+<option>It's Alright</option>
+<option>Bad</option>
+<option>Very Bad</option>
+</select>
+<br>
+<br>
+My Navigation? <br>
+<input type="radio" name="nav" value="easy"> It's Easy<br>
+<input type="radio" name="nav" value="able"> It's Navigate-able<br>
+<input type="radio" name="nav" value="lost"> I'm So Lost<br>
+<br>
+What do you like about the website? <br>
+<input type="checkbox" name="like" value="color"> The Colors<br>
+<input type="checkbox" name="like" value="font"> The Fonts<br>
+<input type="checkbox" name="like" value="theme"> The Theme<br>
+<input type="checkbox" name="like" value="content"> The Content<br>
+<input type="checkbox" name="like" value="nothing"> Absolutely Nothing<br><br>
+		
+Anything else you we can do? <br><textarea rows="8" cols="80">
+</textarea><br><br><br>
+<input style="font-size: 15px;" type="submit" value="Submit">
+</fieldset>
+<div class="none">
+	<a href="Home_Page.html">Back</a>
+</div><br>	
+</form>
+</body>
+</html>
